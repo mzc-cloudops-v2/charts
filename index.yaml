@@ -2792,6 +2792,16 @@ entries:
   plugin:
   - apiVersion: v2
     appVersion: 1.x.y
+    created: "2026-02-23T11:18:28.66723698Z"
+    description: CloudOps plugin Helm chart for Kubernetes
+    digest: ede22857b4dd7f8f9f8babf646399fa07181ce1a62e636774b1ee9e0f2ea70ce
+    name: plugin
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/plugin-2.0.3/plugin-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
+    appVersion: 1.x.y
     created: "2026-02-04T04:51:55.812182178Z"
     description: SpaceONE plugin Helm chart for Kubernetes
     digest: e74d881e289c24c5c2ca883aaabdc4778d046dc2bc1da862191d0287f3bce793
@@ -3187,4 +3197,4 @@ entries:
     urls:
     - https://github.com/mzc-cloudops-v1/charts/releases/download/supervisor-1.1.16/supervisor-1.1.16.tgz
     version: 1.1.16
-generated: "2026-02-23T11:10:57.855572318Z"
+generated: "2026-02-23T11:18:28.667586716Z"
