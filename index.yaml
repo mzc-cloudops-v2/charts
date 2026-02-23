@@ -980,6 +980,16 @@ entries:
   inventory:
   - apiVersion: v2
     appVersion: 1.x.y
+    created: "2026-02-23T11:43:12.861114544Z"
+    description: CloudOps inventory Helm chart for Kubernetes
+    digest: 45a36824f89dffa8873f211e9c31ef5b55d80ce0090906097246ee6055eca996
+    name: inventory
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/inventory-2.0.3/inventory-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
+    appVersion: 1.x.y
     created: "2026-02-23T11:32:24.704374234Z"
     description: CloudOps inventory Helm chart for Kubernetes
     digest: 9c6027fc3527e6b71e2c0e7e58806f0187681dab4cd34cd1072341f552dac01f
@@ -3247,4 +3257,4 @@ entries:
     urls:
     - https://github.com/mzc-cloudops-v1/charts/releases/download/supervisor-1.1.16/supervisor-1.1.16.tgz
     version: 1.1.16
-generated: "2026-02-23T11:34:20.648206929Z"
+generated: "2026-02-23T11:43:12.861452544Z"
