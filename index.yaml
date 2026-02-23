@@ -2666,6 +2666,75 @@ entries:
     urls:
     - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-0.0.3/mzc-cloudops-v1-0.0.3.tgz
     version: 0.0.3
+  mzc-cloudops-v2:
+  - apiVersion: v2
+    appVersion: 2.0.1
+    created: "2026-02-23T12:16:54.089003367Z"
+    dependencies:
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.1
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.4
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.1
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.4
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.1
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.2
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.2
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.1
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.2
+    - condition: policy-board.enabled
+      name: policy-board
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.2
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.1
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.1
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.2
+    description: A Helm chart for CloudOps
+    digest: 976311cd90d1e7098ea5accf9e42957e7768a7f88e2870c09551a736a5b07a4c
+    home: https://www.megazone.com
+    name: mzc-cloudops-v2
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/mzc-cloudops-v2-2.0.1/mzc-cloudops-v2-2.0.1.tgz
+    version: 2.0.1
   mzc-service-api:
   - apiVersion: v2
     appVersion: 1.x.y
@@ -3287,4 +3356,4 @@ entries:
     urls:
     - https://github.com/mzc-cloudops-v1/charts/releases/download/supervisor-1.1.16/supervisor-1.1.16.tgz
     version: 1.1.16
-generated: "2026-02-23T11:52:07.306727238Z"
+generated: "2026-02-23T12:16:54.089345004Z"
