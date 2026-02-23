@@ -1,3 +1,3290 @@
 apiVersion: v1
-entries: {}
-generated: "2026-02-23T12:00:00Z"
+entries:
+  alert-manager:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T07:55:16.398763827Z"
+    description: SpaceONE alert Manager Helm chart for Kubernetes
+    digest: 10d627450c7562de433790701f3c0e29dd2425407e209f38110d55f0f2f3bbe1
+    name: alert-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/alert-manager-2.0.1/alert-manager-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:23:29.79316885Z"
+    description: SpaceONE alert Manager Helm chart for Kubernetes
+    digest: 466dd985d7a29505cf5844a23b4720e4e783528eb22ee220a2b2f515590bc8bb
+    name: alert-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/alert-manager-0.0.14/alert-manager-0.0.14.tgz
+    version: 0.0.14
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:37:56.588954809Z"
+    description: SpaceONE alert Manager Helm chart for Kubernetes
+    digest: c2f7a62a0a4c70d229f404fd66e350cc608c0284f8dc845d5be856e4ffc8306a
+    name: alert-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/alert-manager-0.0.13/alert-manager-0.0.13.tgz
+    version: 0.0.13
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:08:41.838683693Z"
+    description: SpaceONE alert Manager Helm chart for Kubernetes
+    digest: 4c99c3baa680f3bef1be40bcbfbc9a0a98b0a16ea79244cd2b25813c88764644
+    name: alert-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/alert-manager-0.0.12/alert-manager-0.0.12.tgz
+    version: 0.0.12
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:24:46.202276482Z"
+    description: SpaceONE alert Manager Helm chart for Kubernetes
+    digest: db005049f2bd5f53fcb5f3604bbd0812465207e9ed3dee097660e8006ba125f1
+    name: alert-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/alert-manager-0.0.11/alert-manager-0.0.11.tgz
+    version: 0.0.11
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:35:28.668117084Z"
+    description: SpaceONE alert Manager Helm chart for Kubernetes
+    digest: c838c23f58610ed75aacc43284df16245801ec89f0f0970672030b809fbe005f
+    name: alert-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/alert-manager-0.0.10/alert-manager-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:46:55.769881736Z"
+    description: SpaceONE alert Manager Helm chart for Kubernetes
+    digest: 3cee6df714e484faedffd81a5b122467bf69113562c8b8d4c88789512223f1e9
+    name: alert-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/alert-manager-0.0.9/alert-manager-0.0.9.tgz
+    version: 0.0.9
+  audit:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-09T09:12:21.807425402Z"
+    description: SpaceONE Audit Service Helm Chart
+    digest: a808783975b510fb026f140513b8a0a5bd49fb89e11643fef4b4e6be8d9ed6a2
+    name: audit
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/audit-2.0.1/audit-2.0.1.tgz
+    version: 2.0.1
+  board:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-04T04:29:11.064718189Z"
+    description: SpaceONE board Helm chart for Kubernetes
+    digest: 00653f7cb509f5eba46bde7de7e90003302d044992c05bf78759a10524a2917b
+    name: board
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/board-2.0.2/board-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T07:59:35.142372957Z"
+    description: SpaceONE board Helm chart for Kubernetes
+    digest: 9ad7fe5bf5fd682ecafa5b4b352dc0179e1c75559089f5f8ef8e1653aa2bd876
+    name: board
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/board-2.0.1/board-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:24:08.822029546Z"
+    description: SpaceONE board Helm chart for Kubernetes
+    digest: 84153ff1799613dbe61d6fd7c2fa11d0046fae7c6f26a0d72a7750d0e95cf65d
+    name: board
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/board-1.3.17/board-1.3.17.tgz
+    version: 1.3.17
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:09:40.414561805Z"
+    description: SpaceONE board Helm chart for Kubernetes
+    digest: b73323a8791f8208ac2e624bfe9650af0dd6a005e1d8ed7e8dc819ac61a3682d
+    name: board
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/board-1.3.16/board-1.3.16.tgz
+    version: 1.3.16
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:25:42.416881481Z"
+    description: SpaceONE board Helm chart for Kubernetes
+    digest: d8ac5c44d6b657b5140d71314adcfeaa0c46a63929fe574bac1dc8557a4e4893
+    name: board
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/board-1.3.15/board-1.3.15.tgz
+    version: 1.3.15
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:28:40.905477185Z"
+    description: SpaceONE board Helm chart for Kubernetes
+    digest: 2514ff9cbd572e6c94311792699b25b5e3b07078fe2da98f0ee073da71305883
+    name: board
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/board-1.3.14/board-1.3.14.tgz
+    version: 1.3.14
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:46:39.240119585Z"
+    description: SpaceONE board Helm chart for Kubernetes
+    digest: 786b4f4b87ae415c9f087de30db5f57c78b134644ec32146e86094991c047706
+    name: board
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/board-1.3.13/board-1.3.13.tgz
+    version: 1.3.13
+  cloudops:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-11-20T12:19:47.11165623Z"
+    dependencies:
+    - condition: board.enabled
+      name: board
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.13
+    - condition: config.enabled
+      name: config
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.11
+    - condition: console.enabled
+      name: console
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.2.17
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.1.15
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.0.12
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.13
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.12
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.22
+    - condition: inventory-v2.enabled
+      name: inventory-v2
+      repository: https://cloudforet-io.github.io/charts
+      version: 0.0.4
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.27
+    - condition: notification.enabled
+      name: notification
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.17
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.12
+    - condition: repository.enabled
+      name: repository
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.12
+    - condition: search.enabled
+      name: search
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.0.2
+    - condition: secret.enabled
+      name: secret
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.15
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: statistics.enabled
+      name: statistics
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.19
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.1.16
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://spaceone-dev.github.io/charts
+      version: 0.0.15
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://spaceone-dev.github.io/charts
+      version: 0.0.3
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://spaceone-dev.github.io/charts
+      version: 0.0.8
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://spaceone-dev.github.io/charts
+      version: 0.0.9
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://spaceone-dev.github.io/charts
+      version: 1.4.3
+    - condition: identity.enabled
+      name: identity
+      repository: https://spaceone-dev.github.io/charts
+      version: 1.3.17
+    description: A Helm chart for CloudOps
+    digest: 7b0e7389a5c2f3f7eae988ecd8c033788e58330bf6d13795ead5e4f87105314a
+    home: https://www.megazone.com
+    name: cloudops
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/cloudops-0.0.2/cloudops-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-11-17T04:16:58.47229481Z"
+    dependencies:
+    - condition: board.enabled
+      name: board
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.12
+    - condition: config.enabled
+      name: config
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.10
+    - condition: console.enabled
+      name: console
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.2.17
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.1.15
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.0.11
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.4.2
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.12
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.11
+    - condition: identity.enabled
+      name: identity
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.16
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.21
+    - condition: inventory-v2.enabled
+      name: inventory-v2
+      repository: https://cloudforet-io.github.io/charts
+      version: 0.0.3
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.26
+    - condition: notification.enabled
+      name: notification
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.16
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.11
+    - condition: repository.enabled
+      name: repository
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.11
+    - condition: search.enabled
+      name: search
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.0.1
+    - condition: secret.enabled
+      name: secret
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.13
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: statistics.enabled
+      name: statistics
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.3.18
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://cloudforet-io.github.io/charts
+      version: 1.1.15
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://spaceone-dev.github.io/charts
+      version: 0.0.13
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://spaceone-dev.github.io/charts
+      version: 0.0.2
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://spaceone-dev.github.io/charts
+      version: 0.0.2
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://spaceone-dev.github.io/charts
+      version: 0.0.8
+    description: A Helm chart for CloudOps
+    digest: e4d9e2ac5443a3862f1b2b5bcc4efa0c125782830a974476ac5a344928726c9c
+    home: https://www.megazone.com
+    name: cloudops
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/cloudops-0.0.1/cloudops-0.0.1.tgz
+    version: 0.0.1
+  config:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-23T11:24:24.190436087Z"
+    description: CloudOps config Helm chart for Kubernetes
+    digest: e48ac0da0077aa2a32ce7d7862c0bd53a5f31086fd7f19554b09241dc1128f06
+    name: config
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/config-2.0.2/config-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:02:16.016133882Z"
+    description: SpaceONE config Helm chart for Kubernetes
+    digest: 12c1205b07ace368985753aa2c263af8876fd16952b48d45f09c61268394cf7e
+    name: config
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/config-2.0.1/config-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:25:01.822300274Z"
+    description: SpaceONE config Helm chart for Kubernetes
+    digest: 2b8fe15df4b2ae9a7c8f05e71061cc49625f1e0f30a401cebbee6d619f082010
+    name: config
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/config-1.3.15/config-1.3.15.tgz
+    version: 1.3.15
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:11:05.837320534Z"
+    description: SpaceONE config Helm chart for Kubernetes
+    digest: 72323afe16220843a9627f7e97df8afe488a524948e3d48b90d9c12f2093858d
+    name: config
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/config-1.3.14/config-1.3.14.tgz
+    version: 1.3.14
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:26:27.17057426Z"
+    description: SpaceONE config Helm chart for Kubernetes
+    digest: bcfabe53d18b4c91b9a468b054b2536cf85e2e10c99b1b3a9bfe0764b4f94592
+    name: config
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/config-1.3.13/config-1.3.13.tgz
+    version: 1.3.13
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:31:19.096908528Z"
+    description: SpaceONE config Helm chart for Kubernetes
+    digest: 626bb52ddf473b1bebcb34112970cd62f61247327b3c8099f9937a64dd02ebdd
+    name: config
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/config-1.3.12/config-1.3.12.tgz
+    version: 1.3.12
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T06:03:13.249539521Z"
+    description: SpaceONE config Helm chart for Kubernetes
+    digest: 23cbf4fbc1d518816185bce300f232a23691163eadded11a44607dd01109340c
+    name: config
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/config-1.3.11/config-1.3.11.tgz
+    version: 1.3.11
+  console:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-06T07:43:38.503113752Z"
+    description: SpaceONE console Helm chart for Kubernetes
+    digest: 30d8670be3200f1d11900754979353ecceccd52ef4e509138efacdf998c0a6f5
+    name: console
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-2.0.4/console-2.0.4.tgz
+    version: 2.0.4
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-04T04:25:42.798178771Z"
+    description: SpaceONE console Helm chart for Kubernetes
+    digest: 7da9ffdf1a80047592378528329fcabeee4b640999ff3aa275c01b967d6a6fc0
+    name: console
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-2.0.3/console-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-14T06:15:06.800992361Z"
+    description: SpaceONE console Helm chart for Kubernetes
+    digest: d81263601d6dac7a8647c4d819ebaf9067aa800597a9be287f7b2de4469d6686
+    name: console
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-2.0.2/console-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-14T02:22:20.819047102Z"
+    description: SpaceONE console Helm chart for Kubernetes
+    digest: f68c2cb4d61a5fd4539d1878e84b2a36c4c6765ed5022e11ac4d2a67b23892d3
+    name: console
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-2.0.1/console-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T06:13:37.782802567Z"
+    description: SpaceONE console Helm chart for Kubernetes
+    digest: 3be78cdf9ce07be7c9638a0998279aa5e1063c0aae6478c3a0697c34d50faa67
+    name: console
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-1.2.17/console-1.2.17.tgz
+    version: 1.2.17
+  console-api:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:08:28.775115892Z"
+    description: SpaceONE console-api Helm chart for Kubernetes
+    digest: 9992965e02cee6461456cb319b7edf484255410a07250be698da36d39868dc69
+    name: console-api
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-api-2.0.1/console-api-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:32:54.957371032Z"
+    description: SpaceONE console-api Helm chart for Kubernetes
+    digest: 9cc8b03382e9258f7a69e4cab9546e97322eb11db5beb7149445fa077a3f9654
+    name: console-api
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-api-1.1.16/console-api-1.1.16.tgz
+    version: 1.1.16
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:46:03.615624993Z"
+    description: SpaceONE console-api Helm chart for Kubernetes
+    digest: 4ed2c4159ce18c25d6700b5d26224ae86700a0788c2b77cb03afbcee51014154
+    name: console-api
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-api-1.1.15/console-api-1.1.15.tgz
+    version: 1.1.15
+  console-api-v2:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-23T11:49:42.030000599Z"
+    description: Cloudforet Console API v2 Helm chart for Kubernetes
+    digest: 95e22cd26f9da3337e34727fc4a8e697aed22e50810452c896bfc748c8a4f059
+    name: console-api-v2
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/console-api-v2-2.0.5/console-api-v2-2.0.5.tgz
+    version: 2.0.5
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-06T07:42:08.113968657Z"
+    description: Cloudforet Console API v2 Helm chart for Kubernetes
+    digest: 3e8fcec8de22ac92a04f2d56aee61c5294da07c35fe8e48192c7239be469863e
+    name: console-api-v2
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-api-v2-2.0.4/console-api-v2-2.0.4.tgz
+    version: 2.0.4
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-04T08:36:08.785979049Z"
+    description: Cloudforet Console API v2 Helm chart for Kubernetes
+    digest: 1bd80e2d5596466b895fbb76abec1968c5f7c430f5c4c6f428a0c9157ceddd3c
+    name: console-api-v2
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-api-v2-2.0.3/console-api-v2-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-15T12:29:28.328986784Z"
+    description: Cloudforet Console API v2 Helm chart for Kubernetes
+    digest: e6f259b33c345a8f60a65c3270e81f7638364d7eebc85f22169ed0875cacaa26
+    name: console-api-v2
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-api-v2-2.0.2/console-api-v2-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:09:34.694568714Z"
+    description: Cloudforet Console API v2 Helm chart for Kubernetes
+    digest: d6d0d9b9bd93a3c691cd23c356c8ea309c67bb230847c4dc54924a90e0cb3ba5
+    name: console-api-v2
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-api-v2-2.0.1/console-api-v2-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:33:32.119617648Z"
+    description: Cloudforet Console API v2 Helm chart for Kubernetes
+    digest: b001e1e4d4afb0725b2249758508191500a6e510e24e8296e09949c8d25b9e14
+    name: console-api-v2
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-api-v2-1.0.16/console-api-v2-1.0.16.tgz
+    version: 1.0.16
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:12:14.928151111Z"
+    description: Cloudforet Console API v2 Helm chart for Kubernetes
+    digest: 32b7f82677b004e0ece08406ed8dc73cfa4b2bd237ae9f35ed9aeead35665214
+    name: console-api-v2
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-api-v2-1.0.15/console-api-v2-1.0.15.tgz
+    version: 1.0.15
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:27:01.5733461Z"
+    description: Cloudforet Console API v2 Helm chart for Kubernetes
+    digest: 391d55d70ba606b9988510e2a50ecd7e4d3e663c57b29f45763a68ffcafa1e29
+    name: console-api-v2
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-api-v2-1.0.14/console-api-v2-1.0.14.tgz
+    version: 1.0.14
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:18:32.871112553Z"
+    description: Cloudforet Console API v2 Helm chart for Kubernetes
+    digest: 16851d2585e8f12801841a6b413c0a614c33ec9edd2b7fc22ba0f3e590992bfe
+    name: console-api-v2
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-api-v2-1.0.13/console-api-v2-1.0.13.tgz
+    version: 1.0.13
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:46:16.888566188Z"
+    description: Cloudforet Console API v2 Helm chart for Kubernetes
+    digest: eac57e85d824c258d54f1c648e3c6c1b05c2be423a50ea74087f2bb1fd252eb2
+    name: console-api-v2
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/console-api-v2-1.0.12/console-api-v2-1.0.12.tgz
+    version: 1.0.12
+  cost-analysis:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-23T11:10:57.855054725Z"
+    description: CloudOps Cost Analysis Helm chart for Kubernetes
+    digest: 167206ecd3e5cf44d3750cc542bc6729a785c8e98890eff9e84410f3927ee3b2
+    name: cost-analysis
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/cost-analysis-2.0.2/cost-analysis-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:10:51.518274669Z"
+    description: SpaceONE Cost Analysis Helm chart for Kubernetes
+    digest: 4495a01eded58bb3bce957b8d618084dfa7185164e6e81585f76b8b8be506d9f
+    name: cost-analysis
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/cost-analysis-2.0.1/cost-analysis-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:34:27.084242267Z"
+    description: SpaceONE Cost Analysis Helm chart for Kubernetes
+    digest: 008f731ee7bc8b4e61e812197acce35ee1901acf94266d67b7466e7849ed8ada
+    name: cost-analysis
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/cost-analysis-1.4.7/cost-analysis-1.4.7.tgz
+    version: 1.4.7
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:13:54.513582516Z"
+    description: SpaceONE Cost Analysis Helm chart for Kubernetes
+    digest: 7b54d44119e6c6e3a5da704f7e9227537ce7adb1ef63fcb09a59dc439b0d7aee
+    name: cost-analysis
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/cost-analysis-1.4.6/cost-analysis-1.4.6.tgz
+    version: 1.4.6
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:27:56.507857931Z"
+    description: SpaceONE Cost Analysis Helm chart for Kubernetes
+    digest: 7eccecba5df5662419f346e4829da2d518b9044eaa8df42a5cc7033d0ef51f15
+    name: cost-analysis
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/cost-analysis-1.4.5/cost-analysis-1.4.5.tgz
+    version: 1.4.5
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:48:39.859192954Z"
+    description: SpaceONE Cost Analysis Helm chart for Kubernetes
+    digest: 4954ae68800c502740c941e3de2813068802b431bec4ed4e245b3874187f0b2d
+    name: cost-analysis
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/cost-analysis-1.4.4/cost-analysis-1.4.4.tgz
+    version: 1.4.4
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:46:53.549639274Z"
+    description: SpaceONE Cost Analysis Helm chart for Kubernetes
+    digest: e327e4ca27acea144e74bd26e3b1ceedf0722d8611b453a3cdf9179ed13a4750
+    name: cost-analysis
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/cost-analysis-1.4.3/cost-analysis-1.4.3.tgz
+    version: 1.4.3
+  cost-ext:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:32:42.775260938Z"
+    description: SpaceONE Cost Extension Helm chart for Kubernetes
+    digest: 7ce21f64b883ac9a621af3879b0365126f3e81db8d83fddc26a376cd676b35e1
+    name: cost-ext
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/cost-ext-2.0.1/cost-ext-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:35:08.098878897Z"
+    description: SpaceONE Cost Extension Helm chart for Kubernetes
+    digest: 8a0069a05b4e6d179600e8a98c85e6dfd372da2a1af195aa77dd708cdc28a63f
+    name: cost-ext
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/cost-ext-0.0.19/cost-ext-0.0.19.tgz
+    version: 0.0.19
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:14:52.105245021Z"
+    description: SpaceONE Cost Extension Helm chart for Kubernetes
+    digest: 4c33b163e23d8e0f1c8618d20dcc3303bd62e5ef6b9df83a19a7430ec94f1b29
+    name: cost-ext
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/cost-ext-0.0.18/cost-ext-0.0.18.tgz
+    version: 0.0.18
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:28:33.194735349Z"
+    description: SpaceONE Cost Extension Helm chart for Kubernetes
+    digest: 53ebb918ec14638410a37796bfebf62306e9a5c284ccfabfc48e552eb34ca8e3
+    name: cost-ext
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/cost-ext-0.0.17/cost-ext-0.0.17.tgz
+    version: 0.0.17
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:39:18.849066415Z"
+    description: SpaceONE Cost Extension Helm chart for Kubernetes
+    digest: 75dcce7523aba29bddd9eaee1ec2250711b45e3c70c131b20349b969240043f6
+    name: cost-ext
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/cost-ext-0.0.16/cost-ext-0.0.16.tgz
+    version: 0.0.16
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:31:16.78876357Z"
+    description: SpaceONE Cost Extension Helm chart for Kubernetes
+    digest: f968ab9f9a388b4ae89403fedcffbd4fcc09b14c0c258f4713286f8deeba3c30
+    name: cost-ext
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/cost-ext-0.0.15/cost-ext-0.0.15.tgz
+    version: 0.0.15
+  dashboard:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:12:18.171850675Z"
+    description: SpaceONE dashboard Helm chart for Kubernetes
+    digest: c19996c064770091bb34ce7fe076af15e975ea3039294991c7352b699c2e1329
+    name: dashboard
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/dashboard-2.0.1/dashboard-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:35:58.954967161Z"
+    description: SpaceONE dashboard Helm chart for Kubernetes
+    digest: 88ed76172c7c83818d77d8d827e860f1d5003c46a35101415d59fa02ae0e2028
+    name: dashboard
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/dashboard-1.3.17/dashboard-1.3.17.tgz
+    version: 1.3.17
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:27:49.84170385Z"
+    description: SpaceONE dashboard Helm chart for Kubernetes
+    digest: a2243925caff048778ba63a736fc7be0f2f9102ead32f465fc3e3dc0aec645d0
+    name: dashboard
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/dashboard-1.3.16/dashboard-1.3.16.tgz
+    version: 1.3.16
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:29:18.101880346Z"
+    description: SpaceONE dashboard Helm chart for Kubernetes
+    digest: 578a3c22530395059aa77abf12e8e0a840bf49eb743242a110f5f53fa30eea96
+    name: dashboard
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/dashboard-1.3.15/dashboard-1.3.15.tgz
+    version: 1.3.15
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:32:21.811667298Z"
+    description: SpaceONE dashboard Helm chart for Kubernetes
+    digest: 8055629c239abc392096fa9aee737167984a47b109cd9997164e8ba761c1aa39
+    name: dashboard
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/dashboard-1.3.14/dashboard-1.3.14.tgz
+    version: 1.3.14
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:46:50.868849972Z"
+    description: SpaceONE dashboard Helm chart for Kubernetes
+    digest: 39a793da9ca30b8220c3cc3bc67332a0629fe4ab268038b8606b4734dba8f1ca
+    name: dashboard
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/dashboard-1.3.13/dashboard-1.3.13.tgz
+    version: 1.3.13
+  file-manager:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-23T11:34:20.64735081Z"
+    description: CloudOps File Manager Helm chart for Kubernetes
+    digest: 62667d3a6402cfce9556756f91db0641309a4d85ce083922092815c8517f681a
+    name: file-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/file-manager-2.0.3/file-manager-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-04T04:51:08.448820756Z"
+    description: SpaceONE File Manager Helm chart for Kubernetes
+    digest: 84da661f9fc0c658eaaceb543efbda880516359169b68ea35f38aaf36e3bd6cb
+    name: file-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/file-manager-2.0.2/file-manager-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:13:57.727705124Z"
+    description: SpaceONE File Manager Helm chart for Kubernetes
+    digest: 3dcdd3d4fda872b2fbd29205a727ff2987bc3ff3762cac50f2489bef85038f12
+    name: file-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/file-manager-2.0.1/file-manager-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:36:38.356310267Z"
+    description: SpaceONE File Manager Helm chart for Kubernetes
+    digest: 0d2d0c689b62e8699ef3086046729f5307816312ce4f53fc79a0296bb683fcc7
+    name: file-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/file-manager-1.3.16/file-manager-1.3.16.tgz
+    version: 1.3.16
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:15:49.568186607Z"
+    description: SpaceONE File Manager Helm chart for Kubernetes
+    digest: 02b90b586df0b78e4cf0b840ad94d80c5fb33d1e7a42921b693eae013c350661
+    name: file-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/file-manager-1.3.15/file-manager-1.3.15.tgz
+    version: 1.3.15
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:30:05.354138314Z"
+    description: SpaceONE File Manager Helm chart for Kubernetes
+    digest: a9736f66216c306025bc4e5fb184ef0303a35c1df70d00facef1171a6f1bb310
+    name: file-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/file-manager-1.3.14/file-manager-1.3.14.tgz
+    version: 1.3.14
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:25:08.728326947Z"
+    description: SpaceONE File Manager Helm chart for Kubernetes
+    digest: 741173a73d5536a0bb5dc0365314344986bef1b955a8e608a77686538540f6f2
+    name: file-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/file-manager-1.3.13/file-manager-1.3.13.tgz
+    version: 1.3.13
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:46:32.414714645Z"
+    description: SpaceONE File Manager Helm chart for Kubernetes
+    digest: ba3d17f937adbbc4f173f0fb95613a76233d412739c973498fe103ca250d18b9
+    name: file-manager
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/file-manager-1.3.12/file-manager-1.3.12.tgz
+    version: 1.3.12
+  identity:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-23T11:24:04.52997057Z"
+    description: CloudOps identity Helm chart for Kubernetes
+    digest: 4ba2662b47bbf48ae56f2d3c20abb9fd931b1465a97713a03eba2f8103fda803
+    name: identity
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/identity-2.0.3/identity-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-04T04:51:48.050522754Z"
+    description: SpaceONE identity Helm chart for Kubernetes
+    digest: 204028921fb92cf5c13cc3f0aa90884f9d7c682e310bf093eebda601c82d3a5c
+    name: identity
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/identity-2.0.2/identity-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:16:58.209566778Z"
+    description: SpaceONE identity Helm chart for Kubernetes
+    digest: 3f51d5c0eb8e78286e18a85faed9a23b7029d1fa5f1a692538e07754cff92256
+    name: identity
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/identity-2.0.1/identity-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:37:16.31651231Z"
+    description: SpaceONE identity Helm chart for Kubernetes
+    digest: b7018ae4d891cf73cbaff25e2c86505d863d035decc012c9f00175b4367bedca
+    name: identity
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/identity-1.3.21/identity-1.3.21.tgz
+    version: 1.3.21
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:16:46.990338241Z"
+    description: SpaceONE identity Helm chart for Kubernetes
+    digest: 0ae40ba5d2e2dc6102826ab65bf09befe9b00fd6fa7cfdcef863869ef2659c28
+    name: identity
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/identity-1.3.20/identity-1.3.20.tgz
+    version: 1.3.20
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:30:35.324239557Z"
+    description: SpaceONE identity Helm chart for Kubernetes
+    digest: 10c20b579e3de31b7151cd883ab151325292e686ce445f331a58aeaf328f4737
+    name: identity
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/identity-1.3.19/identity-1.3.19.tgz
+    version: 1.3.19
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:36:53.20359401Z"
+    description: SpaceONE identity Helm chart for Kubernetes
+    digest: 8fa98d05f2a39adaeca30535118c10fc74f1a30fd11012bbafb3df72a51e5fcd
+    name: identity
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/identity-1.3.18/identity-1.3.18.tgz
+    version: 1.3.18
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:43:24.245886426Z"
+    description: SpaceONE identity Helm chart for Kubernetes
+    digest: c438e5d7b1318edb17b49fa61f494b72eddd7affb68aa4c8f0365414e84d4154
+    name: identity
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/identity-1.3.17/identity-1.3.17.tgz
+    version: 1.3.17
+  inventory:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-23T11:43:12.861114544Z"
+    description: CloudOps inventory Helm chart for Kubernetes
+    digest: 45a36824f89dffa8873f211e9c31ef5b55d80ce0090906097246ee6055eca996
+    name: inventory
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/inventory-2.0.3/inventory-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-23T11:32:24.704374234Z"
+    description: CloudOps inventory Helm chart for Kubernetes
+    digest: 9c6027fc3527e6b71e2c0e7e58806f0187681dab4cd34cd1072341f552dac01f
+    name: inventory
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/inventory-2.0.2/inventory-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:18:19.859477596Z"
+    description: SpaceONE inventory Helm chart for Kubernetes
+    digest: 0e377834bd58df1457166c9d005c6881d0d2b501cd5882b09eed3e3ed20d2d35
+    name: inventory
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/inventory-2.0.1/inventory-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:37:53.072229415Z"
+    description: SpaceONE inventory Helm chart for Kubernetes
+    digest: b32c00777d8d68756f539073d4bd9d250d0706afe7dac906c748ea44b7f1dd78
+    name: inventory
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/inventory-1.3.26/inventory-1.3.26.tgz
+    version: 1.3.26
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:18:06.712836905Z"
+    description: SpaceONE inventory Helm chart for Kubernetes
+    digest: 07e934538f36323118e6347772d8bacac9a862c3e9f2b6d9ada6743c9b180bde
+    name: inventory
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/inventory-1.3.25/inventory-1.3.25.tgz
+    version: 1.3.25
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:31:06.822394495Z"
+    description: SpaceONE inventory Helm chart for Kubernetes
+    digest: 75524130b707a885bdd82bdc6935ba05d0c4d29fa5815aecdc8d115bb8469e9e
+    name: inventory
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/inventory-1.3.24/inventory-1.3.24.tgz
+    version: 1.3.24
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:26:00.979124929Z"
+    description: SpaceONE inventory Helm chart for Kubernetes
+    digest: 56d74df1951d6c9b498bbe4416e048d32853b8893020bf6dc558cdf8b91783ca
+    name: inventory
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/inventory-1.3.23/inventory-1.3.23.tgz
+    version: 1.3.23
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:57:21.190053418Z"
+    description: SpaceONE inventory Helm chart for Kubernetes
+    digest: f88cc028854872d9834a85303e510fb59b1fd26095881d96e231b432741735ce
+    name: inventory
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/inventory-1.3.22/inventory-1.3.22.tgz
+    version: 1.3.22
+  inventory-v2:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:46:30.305896755Z"
+    description: SpaceONE inventory-v2 Helm chart for Kubernetes
+    digest: d6adfd4397e137a14ac9b5fb9221e1b59e27da63a6d635a2b515fae165f8e1c2
+    name: inventory-v2
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/inventory-v2-0.0.4/inventory-v2-0.0.4.tgz
+    version: 0.0.4
+  marketplace-assets:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:20:34.728538045Z"
+    description: SpaceONE marketplace-assets Helm chart for Kubernetes
+    digest: 6f7d599a359df38971451119a5b635f107902426a128c8cd0da737cd9cf0a1e1
+    name: marketplace-assets
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/marketplace-assets-2.0.1/marketplace-assets-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:43:59.946256159Z"
+    description: SpaceONE marketplace-assets Helm chart for Kubernetes
+    digest: 489e67a31c26dd4194853382c73b892e9ae174036d65a5f5c4d61bee46fe8e48
+    name: marketplace-assets
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/marketplace-assets-1.1.6/marketplace-assets-1.1.6.tgz
+    version: 1.1.6
+  monitoring:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:21:09.279869298Z"
+    description: SpaceONE monitoring Helm chart for Kubernetes
+    digest: 0bf94bd5f434b3b08002da261a19fe3e32a4c90a1881a6b4a5f4efb038f58f77
+    name: monitoring
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/monitoring-2.0.1/monitoring-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:38:35.712843714Z"
+    description: SpaceONE monitoring Helm chart for Kubernetes
+    digest: 9175732a7d430dd7f07dafa3016935b6ba5a8fbe7ea3b4da7867566c53e5c101
+    name: monitoring
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/monitoring-1.3.31/monitoring-1.3.31.tgz
+    version: 1.3.31
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:19:14.655894247Z"
+    description: SpaceONE monitoring Helm chart for Kubernetes
+    digest: 6d050368f316bfc4e134cd5da8e0a3550224774ec1f75e1531fae1db7f1c413b
+    name: monitoring
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/monitoring-1.3.30/monitoring-1.3.30.tgz
+    version: 1.3.30
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:32:05.23845087Z"
+    description: SpaceONE monitoring Helm chart for Kubernetes
+    digest: ae90feb181f78101baa13a025401dfed3e9213eedc2e1d3711e85d83dbd3a7a3
+    name: monitoring
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/monitoring-1.3.29/monitoring-1.3.29.tgz
+    version: 1.3.29
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:21:22.73177108Z"
+    description: SpaceONE monitoring Helm chart for Kubernetes
+    digest: ed25dab48072b4fc9de917f261c97557db494437c5664fa3b607595661e95ca9
+    name: monitoring
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/monitoring-1.3.28/monitoring-1.3.28.tgz
+    version: 1.3.28
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:54:03.007354485Z"
+    description: SpaceONE monitoring Helm chart for Kubernetes
+    digest: 439f187e3bdb0c6d90606db243ee6d722beccf21e69f123f9094bba4ef831a0f
+    name: monitoring
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/monitoring-1.3.27/monitoring-1.3.27.tgz
+    version: 1.3.27
+  mzc-cloudops-v1:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2026-02-09T09:31:46.667139068Z"
+    dependencies:
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: audit.enabled
+      name: audit
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: board.enabled
+      name: board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.4
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.4
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: notification.enabled
+      name: notification
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: policy-board.enabled
+      name: policy-board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: search.enabled
+      name: search
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: statistics.enabled
+      name: statistics
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    description: A Helm chart for CloudOps
+    digest: 634034920915b1fded21e9482aa96b26a1936f3c474e82d545658b9f3d55acba
+    home: https://www.megazone.com
+    name: mzc-cloudops-v1
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-2.0.5/mzc-cloudops-v1-2.0.5.tgz
+    version: 2.0.5
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2026-02-06T07:45:05.744244962Z"
+    dependencies:
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: board.enabled
+      name: board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.4
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.4
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: notification.enabled
+      name: notification
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: policy-board.enabled
+      name: policy-board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: search.enabled
+      name: search
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: statistics.enabled
+      name: statistics
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    description: A Helm chart for CloudOps
+    digest: 3c333e104084632cc2ee9cc0ab71a7555f0e1fd68715d66a0f87dac409aa9223
+    home: https://www.megazone.com
+    name: mzc-cloudops-v1
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-2.0.4/mzc-cloudops-v1-2.0.4.tgz
+    version: 2.0.4
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2026-02-04T09:09:04.693681048Z"
+    dependencies:
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: board.enabled
+      name: board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.3
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.3
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: notification.enabled
+      name: notification
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: policy-board.enabled
+      name: policy-board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: search.enabled
+      name: search
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: statistics.enabled
+      name: statistics
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    description: A Helm chart for CloudOps
+    digest: 4c38ca3539cb406c6b95f66560edd4d77460b7dd24b23c6f1093e6e83cb5db54
+    home: https://www.megazone.com
+    name: mzc-cloudops-v1
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-2.0.3/mzc-cloudops-v1-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2026-01-15T12:31:12.857514947Z"
+    dependencies:
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: board.enabled
+      name: board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.2
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: notification.enabled
+      name: notification
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: policy-board.enabled
+      name: policy-board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: search.enabled
+      name: search
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: statistics.enabled
+      name: statistics
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    description: A Helm chart for CloudOps
+    digest: 85051b4158d287d68d0b0858f7829659919e017a488ce5fe5897b3b26abbb336
+    home: https://www.megazone.com
+    name: mzc-cloudops-v1
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-2.0.2/mzc-cloudops-v1-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2026-01-14T03:16:29.496679283Z"
+    dependencies:
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: board.enabled
+      name: board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: notification.enabled
+      name: notification
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: policy-board.enabled
+      name: policy-board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: search.enabled
+      name: search
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: statistics.enabled
+      name: statistics
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 2.0.1
+    description: A Helm chart for CloudOps
+    digest: 7d8f67dd88739d691fd05a1e50589b5ab15c3b3c687ec7164b9d55563cbf27ff
+    home: https://www.megazone.com
+    name: mzc-cloudops-v1
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-2.0.1/mzc-cloudops-v1-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2026-01-06T11:55:04.762934601Z"
+    dependencies:
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.14
+    - condition: board.enabled
+      name: board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.17
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.15
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.2.17
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.16
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.16
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.4.7
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.19
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.17
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.16
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.21
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.26
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.31
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.7
+    - condition: notification.enabled
+      name: notification
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.21
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.12
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.16
+    - condition: policy-board.enabled
+      name: policy-board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.1
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.16
+    - condition: search.enabled
+      name: search
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.6
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.19
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.20
+    description: A Helm chart for CloudOps
+    digest: 58aa1c0a6b6b7ae94d671dfb29ed29e89ddc7ceddfc7cd145803325b055bcc2d
+    home: https://www.megazone.com
+    name: mzc-cloudops-v1
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-0.0.11/mzc-cloudops-v1-0.0.11.tgz
+    version: 0.0.11
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-12-03T05:51:53.078492422Z"
+    dependencies:
+    - condition: board.enabled
+      name: board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.16
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.14
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.2.17
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.15
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.15
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.16
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.15
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.25
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.30
+    - condition: notification.enabled
+      name: notification
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.20
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.15
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.15
+    - condition: search.enabled
+      name: search
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.5
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.18
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.19
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.18
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.6
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.11
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.13
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.4.6
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.20
+    description: A Helm chart for CloudOps
+    digest: 417cbaf0fdd69e722b0010402d49bf2d11f053a79a560cf28bf3345c49ab010a
+    home: https://www.megazone.com
+    name: mzc-cloudops-v1
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-0.0.10/mzc-cloudops-v1-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-12-03T05:47:26.886993137Z"
+    dependencies:
+    - condition: board.enabled
+      name: board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.16
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.14
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.2.17
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.15
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.15
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.16
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.15
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.25
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.30
+    - condition: notification.enabled
+      name: notification
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.20
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.15
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.15
+    - condition: search.enabled
+      name: search
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.5
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.18
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.19
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.18
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.6
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.11
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.13
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.4.6
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.20
+    description: A Helm chart for CloudOps
+    digest: c5b17ce586835e444650bf2377b937a641aef79a0e20d5c6f8a74d53e30c140b
+    home: https://www.megazone.com
+    name: mzc-cloudops-v1
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-0.0.9/mzc-cloudops-v1-0.0.9.tgz
+    version: 0.0.9
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-11-28T07:29:32.006882147Z"
+    dependencies:
+    - condition: board.enabled
+      name: board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.16
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.14
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.2.17
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.15
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.15
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.16
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.15
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.25
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.30
+    - condition: notification.enabled
+      name: notification
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.20
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.15
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.15
+    - condition: search.enabled
+      name: search
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.5
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.18
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.19
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.18
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.6
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.11
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.12
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.4.6
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.20
+    description: A Helm chart for CloudOps
+    digest: 6b4385fad1e9341d1505d561482879beb16a58e4fac5d14d1c11c6c02f4b80ee
+    home: https://www.megazone.com
+    name: mzc-cloudops-v1
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-0.0.8/mzc-cloudops-v1-0.0.8.tgz
+    version: 0.0.8
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-11-28T04:54:01.426547758Z"
+    dependencies:
+    - condition: board.enabled
+      name: board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.15
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.13
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.2.17
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.15
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.14
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.15
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.14
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.24
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.29
+    - condition: notification.enabled
+      name: notification
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.19
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.14
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.14
+    - condition: search.enabled
+      name: search
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.4
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.17
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.18
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.17
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.5
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.10
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.11
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.4.5
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.19
+    description: A Helm chart for CloudOps
+    digest: 03b5c2b485de286cc478c79d86e393f8cfd78d74ff38260e32ca0827a1e55168
+    home: https://www.megazone.com
+    name: mzc-cloudops-v1
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-0.0.7/mzc-cloudops-v1-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-11-27T12:37:16.369643517Z"
+    dependencies:
+    - condition: board.enabled
+      name: board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.14
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.12
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.2.17
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.15
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.13
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.14
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.13
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.23
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.28
+    - condition: notification.enabled
+      name: notification
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.18
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.13
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.13
+    - condition: search.enabled
+      name: search
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.3
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.17
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.17
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.16
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.4
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.9
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.10
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.4.4
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.18
+    description: A Helm chart for CloudOps
+    digest: a020322ac0cee8eac577d7ab248806ada93cd6c8dba9b9ca193a036cf9ee14f5
+    home: https://www.megazone.com
+    name: mzc-cloudops-v1
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-0.0.6/mzc-cloudops-v1-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-11-27T12:29:55.100937638Z"
+    dependencies:
+    - condition: board.enabled
+      name: board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.14
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.12
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.2.17
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.15
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.13
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.14
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.13
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.23
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.28
+    - condition: notification.enabled
+      name: notification
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.18
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.13
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.13
+    - condition: search.enabled
+      name: search
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.3
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.16
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.17
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.16
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.4
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.9
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.10
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.4.4
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.18
+    description: A Helm chart for CloudOps
+    digest: 0fc1e95533805b832cc4887f989b3ac19c36dbd0cf5adc7add306d47237d4000
+    home: https://www.megazone.com
+    name: mzc-cloudops-v1
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-0.0.5/mzc-cloudops-v1-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-11-27T12:19:50.400212036Z"
+    dependencies:
+    - condition: board.enabled
+      name: board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.14
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.12
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.2.17
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.15
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.13
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.14
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.13
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.23
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.28
+    - condition: notification.enabled
+      name: notification
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.18
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.13
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.13
+    - condition: search.enabled
+      name: search
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.3
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.16
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.17
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.16
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.4
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.9
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.10
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.4.4
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.18
+    description: A Helm chart for CloudOps
+    digest: d6b76c5b06b1f859cd4e4893c09c369d73e61f91ef6fd73bd069a57b2e0f37a7
+    home: https://www.megazone.com
+    name: mzc-cloudops-v1
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-0.0.4/mzc-cloudops-v1-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-11-27T07:57:46.629652333Z"
+    dependencies:
+    - condition: board.enabled
+      name: board
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.13
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.11
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.2.17
+    - condition: console-api.enabled
+      name: console-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.15
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.12
+    - condition: dashboard.enabled
+      name: dashboard
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.13
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.12
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.22
+    - condition: marketplace-assets.enabled
+      name: marketplace-assets
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: '>=1.0.0'
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.27
+    - condition: notification.enabled
+      name: notification
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.17
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.12
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.12
+    - condition: search.enabled
+      name: search
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.0.2
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.15
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.1.16
+    - condition: cost-ext.enabled
+      name: cost-ext
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.15
+    - condition: mzc-service-api.enabled
+      name: mzc-service-api
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.3
+    - condition: opsflow.enabled
+      name: opsflow
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.8
+    - condition: alert-manager.enabled
+      name: alert-manager
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 0.0.9
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.4.3
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v1.github.io/charts
+      version: 1.3.17
+    description: A Helm chart for CloudOps
+    digest: 0b69bb945bdf3e52f6b73f51a22db4cdc5190b2ed14816cea322110b2c92d615
+    home: https://www.megazone.com
+    name: mzc-cloudops-v1
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-cloudops-v1-0.0.3/mzc-cloudops-v1-0.0.3.tgz
+    version: 0.0.3
+  mzc-service-api:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:34:56.453619667Z"
+    description: SpaceONE MZC Service API Helm chart for Kubernetes
+    digest: 276408bf27e3613a34a68fdebb8967098d02e3b8ffb7645d54197acd4e6c48bf
+    name: mzc-service-api
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-service-api-2.0.1/mzc-service-api-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:39:10.453848508Z"
+    description: SpaceONE MZC Service API Helm chart for Kubernetes
+    digest: 99b281fe2ea46fa35d2483ea7836dc94b88c6fd67cdb3f58f0b6b865b86bf527
+    name: mzc-service-api
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-service-api-0.0.7/mzc-service-api-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:20:03.221806133Z"
+    description: SpaceONE MZC Service API Helm chart for Kubernetes
+    digest: bd7add2585e7bbd250f338fdb24aeb7fe66633ac8464612e8c2649614d5f89fb
+    name: mzc-service-api
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-service-api-0.0.6/mzc-service-api-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T03:27:32.757330183Z"
+    description: SpaceONE MZC Service API Helm chart for Kubernetes
+    digest: 5a42a0ce7cf7fe014cc198de4a430033c0412d6b5e19c8d995aef8d28af2f287
+    name: mzc-service-api
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-service-api-0.0.5/mzc-service-api-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:51:32.904158156Z"
+    description: SpaceONE MZC Service API Helm chart for Kubernetes
+    digest: 797fc130cffaca0c664f56b59366ef2713ca5012459ade8be64d4a13fcaa89eb
+    name: mzc-service-api
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-service-api-0.0.4/mzc-service-api-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:29:24.841639353Z"
+    description: SpaceONE MZC Service API Helm chart for Kubernetes
+    digest: ee302e71cab1a99bf106f1ed098381ee742f125072bb7b3e0d6dbc28aa753675
+    name: mzc-service-api
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/mzc-service-api-0.0.3/mzc-service-api-0.0.3.tgz
+    version: 0.0.3
+  notification:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:22:27.23484119Z"
+    description: SpaceONE notification Helm chart for Kubernetes
+    digest: 19814bf01727ec13606e4cd0a0fc6e61b0fc49f5a38230d9f8680752caeb82d3
+    name: notification
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/notification-2.0.1/notification-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:39:45.230689848Z"
+    description: SpaceONE notification Helm chart for Kubernetes
+    digest: a17248bc7f6133d81f0affbf6835ad5f1951bdefaa4901ef11bed44498d500bd
+    name: notification
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/notification-1.3.21/notification-1.3.21.tgz
+    version: 1.3.21
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:20:42.481973254Z"
+    description: SpaceONE notification Helm chart for Kubernetes
+    digest: 509d4782bdbce6bab9d261160d4f90ebb807374d2db9f12c0ab62048cf78c615
+    name: notification
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/notification-1.3.20/notification-1.3.20.tgz
+    version: 1.3.20
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:32:51.755957188Z"
+    description: SpaceONE notification Helm chart for Kubernetes
+    digest: e9addf8dece4a008ce6bf0c45828360c0d3aa77c3eae236a3e22b75ba63fd9cc
+    name: notification
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/notification-1.3.19/notification-1.3.19.tgz
+    version: 1.3.19
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:23:15.88618389Z"
+    description: SpaceONE notification Helm chart for Kubernetes
+    digest: d5d442b4099c61036d17b882cdd57f9c0e25c21379047870e32ce77e532f68d8
+    name: notification
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/notification-1.3.18/notification-1.3.18.tgz
+    version: 1.3.18
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:46:21.037884889Z"
+    description: SpaceONE notification Helm chart for Kubernetes
+    digest: 2aa0974bd86ecabb7cdd893ecc9ba8cd148ee405262ec9814296fda38f00fe49
+    name: notification
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/notification-1.3.17/notification-1.3.17.tgz
+    version: 1.3.17
+  opsflow:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:36:43.08413505Z"
+    description: SpaceONE OpsFlow Helm chart for Kubernetes
+    digest: f020c4a9e601cda0b4712533a8655bf0fc2fc8cfc62244418ff48ea12ec3b155
+    name: opsflow
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/opsflow-2.0.1/opsflow-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:40:19.675188547Z"
+    description: SpaceONE OpsFlow Helm chart for Kubernetes
+    digest: 26f8121919866a2e3348e6e76df6dd86e617e2728a392e9e0138b3d404e58057
+    name: opsflow
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/opsflow-0.0.12/opsflow-0.0.12.tgz
+    version: 0.0.12
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:21:09.762174098Z"
+    description: SpaceONE OpsFlow Helm chart for Kubernetes
+    digest: 9b27b5d87ddae521e534daaa58399c3de84d0968d114e165f9c13378da90544f
+    name: opsflow
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/opsflow-0.0.11/opsflow-0.0.11.tgz
+    version: 0.0.11
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:33:21.974797774Z"
+    description: SpaceONE OpsFlow Helm chart for Kubernetes
+    digest: 2e489eaa983ada00a4ff355ba0e9c98109beeff2ea45b7eb894697342dec9077
+    name: opsflow
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/opsflow-0.0.10/opsflow-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:38:33.442932085Z"
+    description: SpaceONE OpsFlow Helm chart for Kubernetes
+    digest: e237772d45cf4925333e783dfedd6220c20f781be93b258ae6b59b9547f03d5a
+    name: opsflow
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/opsflow-0.0.9/opsflow-0.0.9.tgz
+    version: 0.0.9
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:33:20.096478793Z"
+    description: SpaceONE OpsFlow Helm chart for Kubernetes
+    digest: 78265022af59974102cfbdb2938b21012ed1ea1a5462e8cc2ff717a663addbd3
+    name: opsflow
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/opsflow-0.0.8/opsflow-0.0.8.tgz
+    version: 0.0.8
+  plugin:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-23T11:18:28.66723698Z"
+    description: CloudOps plugin Helm chart for Kubernetes
+    digest: ede22857b4dd7f8f9f8babf646399fa07181ce1a62e636774b1ee9e0f2ea70ce
+    name: plugin
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/plugin-2.0.3/plugin-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-04T04:51:55.812182178Z"
+    description: SpaceONE plugin Helm chart for Kubernetes
+    digest: e74d881e289c24c5c2ca883aaabdc4778d046dc2bc1da862191d0287f3bce793
+    name: plugin
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/plugin-2.0.2/plugin-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:23:34.274843966Z"
+    description: SpaceONE plugin Helm chart for Kubernetes
+    digest: 3257118c6d6e6a62940518b0a1cd9d37e3a0eb683fd725ac8a4ea6a89f819e61
+    name: plugin
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/plugin-2.0.1/plugin-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:40:55.841978423Z"
+    description: SpaceONE plugin Helm chart for Kubernetes
+    digest: 63bbbf13eb3a3ae20bc35ef519ca52b29d938898e5da582676ed44ed0bf6da21
+    name: plugin
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/plugin-1.3.16/plugin-1.3.16.tgz
+    version: 1.3.16
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:22:01.853152328Z"
+    description: SpaceONE plugin Helm chart for Kubernetes
+    digest: d47b5ff8d913e50766a828fc3bc424f8d155a56e64a51a49dace997ed57d0d12
+    name: plugin
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/plugin-1.3.15/plugin-1.3.15.tgz
+    version: 1.3.15
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:38:54.534062673Z"
+    description: SpaceONE plugin Helm chart for Kubernetes
+    digest: fed09682194bfb72aa571cba2c274c2a36fb2e850183bf89b6f040e8ec34ae57
+    name: plugin
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/plugin-1.3.14/plugin-1.3.14.tgz
+    version: 1.3.14
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:46:44.360922691Z"
+    description: SpaceONE plugin Helm chart for Kubernetes
+    digest: 7e72142c01d1f0de6d6ec0252e80d0076ee819bab60afa8abffa0b8df8da6c1e
+    name: plugin
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/plugin-1.3.13/plugin-1.3.13.tgz
+    version: 1.3.13
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:46:24.353358573Z"
+    description: SpaceONE plugin Helm chart for Kubernetes
+    digest: a6f83a1c8824f908e380d65bf80d60be56270b1d883e0771ab5ece066539cc3f
+    name: plugin
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/plugin-1.3.12/plugin-1.3.12.tgz
+    version: 1.3.12
+  policy-board:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-04T04:52:40.905108254Z"
+    description: CloudOps Policy Board Helm chart for Kubernetes
+    digest: 0c502ea7e67acd74c2e15b1cbca389765a0329adc61c35797330c9f1e65eba00
+    name: policy-board
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/policy-board-2.0.2/policy-board-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:41:09.39534697Z"
+    description: CloudOps Policy Board Helm chart for Kubernetes
+    digest: 56354a753d882065b609fdb96949a3dd52a0df0e03c0fd2d55979da5f531654c
+    name: policy-board
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/policy-board-2.0.1/policy-board-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:41:30.477981405Z"
+    description: CloudOps Policy Board Helm chart for Kubernetes
+    digest: 04366820bb2e83fca3a8b2e1ba072873265a5cdce4fc5770af87770f1888c657
+    name: policy-board
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/policy-board-0.0.1/policy-board-0.0.1.tgz
+    version: 0.0.1
+  repository:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-23T11:22:02.154592768Z"
+    description: CloudOps repository Helm chart for Kubernetes
+    digest: 4f9a4680757887eb292dde804fe123c66ceb366f4f3eabde3a948c419df4cc69
+    name: repository
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/repository-2.0.2/repository-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:26:15.050840111Z"
+    description: SpaceONE repository Helm chart for Kubernetes
+    digest: 99ca2954d8431cf80e3763521b64563865ba5c2d6dc4e43c8eec49a8fd2151b0
+    name: repository
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/repository-2.0.1/repository-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:42:20.433569736Z"
+    description: SpaceONE repository Helm chart for Kubernetes
+    digest: 51f829b6ca6f81283f54456ea9faba62aaada30a2309e8bf68dc33b25949d51f
+    name: repository
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/repository-1.3.16/repository-1.3.16.tgz
+    version: 1.3.16
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:22:30.350689682Z"
+    description: SpaceONE repository Helm chart for Kubernetes
+    digest: 252b38b697a777c7992e3ca7f2edab34584886cb0119ad85582924d89f83d911
+    name: repository
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/repository-1.3.15/repository-1.3.15.tgz
+    version: 1.3.15
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:35:18.688849541Z"
+    description: SpaceONE repository Helm chart for Kubernetes
+    digest: 84d6ed009c37ca6a9ff07e4bef546841305587acdd570d5f0072d0d8ff416bf3
+    name: repository
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/repository-1.3.14/repository-1.3.14.tgz
+    version: 1.3.14
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:20:25.56267926Z"
+    description: SpaceONE repository Helm chart for Kubernetes
+    digest: 4ef50f1fe9c373ec48888dd90dcc5de74e2878765bf60ac2059d5cbcfe56cb12
+    name: repository
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/repository-1.3.13/repository-1.3.13.tgz
+    version: 1.3.13
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:46:08.963059244Z"
+    description: SpaceONE repository Helm chart for Kubernetes
+    digest: 0b0b0c0299e8be45581b596114af7f6daa782fa5cf368cb698427d7e7da77450
+    name: repository
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/repository-1.3.12/repository-1.3.12.tgz
+    version: 1.3.12
+  search:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:27:19.380415655Z"
+    description: SpaceONE search Helm chart for Kubernetes
+    digest: 281485b8472e64d545937a739d5fca1dadeb45a904757bfc9e561c09a343d659
+    name: search
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/search-2.0.1/search-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:43:00.064750874Z"
+    description: SpaceONE search Helm chart for Kubernetes
+    digest: 4bce4128327cb4821bebe42a0e39a2f004bac4460443c1a431a153e0c16c55ae
+    name: search
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/search-1.0.6/search-1.0.6.tgz
+    version: 1.0.6
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:23:30.397036096Z"
+    description: SpaceONE search Helm chart for Kubernetes
+    digest: 61e05cfd63c1b6e3b9a7f1eebda1e41965e87908ac8163c8f11904c828b96743
+    name: search
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/search-1.0.5/search-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:36:19.384525827Z"
+    description: SpaceONE search Helm chart for Kubernetes
+    digest: 747672dfbd6cb5d19cd04a4013b16b66bbf9e88628095fd01e2e55f4236b07e4
+    name: search
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/search-1.0.4/search-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:30:17.478408842Z"
+    description: SpaceONE search Helm chart for Kubernetes
+    digest: bf301a1022d3d82cf1b9e85317d55d756707ca495b5e5efa2c89c3d060903bc8
+    name: search
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/search-1.0.3/search-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T06:02:30.836468497Z"
+    description: SpaceONE search Helm chart for Kubernetes
+    digest: 909414adc8d0eee133b7aff050297d12fc5761705a110e12640143a6a1c78b78
+    name: search
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/search-1.0.2/search-1.0.2.tgz
+    version: 1.0.2
+  secret:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-23T11:45:21.875946735Z"
+    description: CloudOps secret Helm chart for Kubernetes
+    digest: 78df9c89acbf44cb82d4c4e3e592a5a3340e8081a957bc95962cdacce0001be2
+    name: secret
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/secret-2.0.2/secret-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:28:37.361972126Z"
+    description: SpaceONE secret Helm chart for Kubernetes
+    digest: 0a978a426f8e32568c5e511da15057d0478f4e8ccc45c76dce35e1b55e65b0f4
+    name: secret
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/secret-2.0.1/secret-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:43:39.25940936Z"
+    description: SpaceONE secret Helm chart for Kubernetes
+    digest: 0550b56cd5b88b452d635552345a599be989a9b4257137cbd5c7ffd1555779a2
+    name: secret
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/secret-1.3.19/secret-1.3.19.tgz
+    version: 1.3.19
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:23:46.432651919Z"
+    description: SpaceONE secret Helm chart for Kubernetes
+    digest: 1ee408578a180c62572f96fcd55a33a68a2ba71400059bbde060e5946b6513a1
+    name: secret
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/secret-1.3.18/secret-1.3.18.tgz
+    version: 1.3.18
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T12:35:58.698294787Z"
+    description: SpaceONE secret Helm chart for Kubernetes
+    digest: 01ddaeb111ab76f0873b279be5943dfa27507759309b7fae558edfeb5526fe00
+    name: secret
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/secret-1.3.17/secret-1.3.17.tgz
+    version: 1.3.17
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T12:28:45.618760005Z"
+    description: SpaceONE secret Helm chart for Kubernetes
+    digest: 1bbfb4f609ad97059ac64c4680cdd25eb4a78c8ebf09819c36af5a00287d2fdb
+    name: secret
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/secret-1.3.16/secret-1.3.16.tgz
+    version: 1.3.16
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T06:30:40.833087749Z"
+    description: SpaceONE secret Helm chart for Kubernetes
+    digest: 4ae21de2eb8c66d5b0682fd52a5617c815e594f79ada7ec9b0bddcadce876362
+    name: secret
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/secret-1.3.15/secret-1.3.15.tgz
+    version: 1.3.15
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:47:38.090727913Z"
+    description: SpaceONE secret Helm chart for Kubernetes
+    digest: 5056bf9b6759444634660c32bf8468c95ed5e330d63f10e0912137c860506579
+    name: secret
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/secret-1.3.14/secret-1.3.14.tgz
+    version: 1.3.14
+  spacectl:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:47:26.983546779Z"
+    description: A spacectl chart for Kubernetes
+    digest: 9eae8c15fe9cd685968b0e6f6bf3ad55c821b49a3d671a7521d524d42c5b8646
+    name: spacectl
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/spacectl-2.0.1/spacectl-2.0.1.tgz
+    version: 2.0.1
+  statistics:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-14T03:13:19.23034857Z"
+    description: SpaceONE statistics Helm chart for Kubernetes
+    digest: f00dbb7b8e06eaf1ae674f0313e586b3b72ab5931b83386ddab916d86e778b2e
+    name: statistics
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/statistics-2.0.1/statistics-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:46:47.522296067Z"
+    description: SpaceONE statistics Helm chart for Kubernetes
+    digest: 2a66bc373ac068a1e9a967d9f1b74ce1f1af6a7eb1e1e108248a9749eeb31d43
+    name: statistics
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/statistics-1.3.19/statistics-1.3.19.tgz
+    version: 1.3.19
+  supervisor:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-23T11:52:07.306368959Z"
+    description: CloudOps supervisor Helm chart for Kubernetes
+    digest: b628240e28503467a9e308c0687131378226fca914c5423af54eacd141d86da8
+    name: supervisor
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/supervisor-2.0.3/supervisor-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-02-04T04:53:21.338937577Z"
+    description: SpaceONE supervisor Helm chart for Kubernetes
+    digest: 4b08a54c97f0240d68c925943e0685b70c3c2383cc48a93e38f19c7ae251bc06
+    name: supervisor
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/supervisor-2.0.2/supervisor-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-13T08:29:36.817500135Z"
+    description: SpaceONE supervisor Helm chart for Kubernetes
+    digest: 787da61eda06d3a5ecc3c2b91938fa81ed067c692119653abffde2eb7ae41249
+    name: supervisor
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/supervisor-2.0.1/supervisor-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2026-01-06T11:44:27.300991118Z"
+    description: SpaceONE supervisor Helm chart for Kubernetes
+    digest: 33506e7c9d248545f039b1678850ed24d181fc8af9ddca753772fe6e6934f38d
+    name: supervisor
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/supervisor-1.1.20/supervisor-1.1.20.tgz
+    version: 1.1.20
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T07:24:22.414077042Z"
+    description: SpaceONE supervisor Helm chart for Kubernetes
+    digest: 36aa014f8e802e0e64ad618c5abfe560fc890bb5c5fe5355475ae8c2ebd50260
+    name: supervisor
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/supervisor-1.1.19/supervisor-1.1.19.tgz
+    version: 1.1.19
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-28T02:37:35.203061925Z"
+    description: SpaceONE supervisor Helm chart for Kubernetes
+    digest: 03fd793e3381f002075e2fcee8f79d1c4cbb9963b261cd181dc4d887e9248ee4
+    name: supervisor
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/supervisor-1.1.18/supervisor-1.1.18.tgz
+    version: 1.1.18
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T08:27:31.559413678Z"
+    description: SpaceONE supervisor Helm chart for Kubernetes
+    digest: 0e893e7262ddb8a9b710b8c8fd5ef48abba59e88c7492a280f73f6ff630b402a
+    name: supervisor
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/supervisor-1.1.17/supervisor-1.1.17.tgz
+    version: 1.1.17
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2025-11-27T05:46:34.734453383Z"
+    description: SpaceONE supervisor Helm chart for Kubernetes
+    digest: e24d458d53939f14c50d291e45f9504dde484cde187823499928b5e0ab33b932
+    name: supervisor
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v1/charts/releases/download/supervisor-1.1.16/supervisor-1.1.16.tgz
+    version: 1.1.16
+generated: "2026-02-23T11:52:07.306727238Z"
