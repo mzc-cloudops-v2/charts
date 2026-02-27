@@ -919,6 +919,16 @@ entries:
   identity:
   - apiVersion: v2
     appVersion: 1.x.y
+    created: "2026-02-27T09:20:29.813276965Z"
+    description: CloudOps identity Helm chart for Kubernetes
+    digest: 4ac3a47c6cbedd1574525d4e6640c5a36ea07cb44fc3e957c0782939a23d17e4
+    name: identity
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/identity-2.0.4/identity-2.0.4.tgz
+    version: 2.0.4
+  - apiVersion: v2
+    appVersion: 1.x.y
     created: "2026-02-23T11:24:04.52997057Z"
     description: CloudOps identity Helm chart for Kubernetes
     digest: 4ba2662b47bbf48ae56f2d3c20abb9fd931b1465a97713a03eba2f8103fda803
@@ -3426,4 +3436,4 @@ entries:
     urls:
     - https://github.com/mzc-cloudops-v1/charts/releases/download/supervisor-1.1.16/supervisor-1.1.16.tgz
     version: 1.1.16
-generated: "2026-02-27T05:32:41.234131245Z"
+generated: "2026-02-27T09:20:29.813591211Z"
