@@ -74,6 +74,16 @@ entries:
   application:
   - apiVersion: v2
     appVersion: 1.x.y
+    created: "2026-03-09T09:51:35.341347735Z"
+    description: CloudOps application Helm chart for Kubernetes
+    digest: 1e3c272bee7a2a387f251e2155addc0d7f9af927d4f870f20a2497125152fe0c
+    name: application
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/application-2.0.1/application-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 1.x.y
     created: "2026-03-09T07:35:38.389950798Z"
     description: CloudOps application Helm chart for Kubernetes
     digest: 853e84b1329b3f88d46c3fb4ba3b4abc631638a625a68265be58529166649ba1
@@ -3646,4 +3656,4 @@ entries:
     urls:
     - https://github.com/mzc-cloudops-v1/charts/releases/download/supervisor-1.1.16/supervisor-1.1.16.tgz
     version: 1.1.16
-generated: "2026-03-09T09:01:16.013838532Z"
+generated: "2026-03-09T09:51:35.342392934Z"
