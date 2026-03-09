@@ -2699,6 +2699,70 @@ entries:
     version: 0.0.3
   mzc-cloudops-v2:
   - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2026-03-09T07:49:17.734416337Z"
+    dependencies:
+    - condition: application.enabled
+      name: application
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.0
+    - condition: config.enabled
+      name: config
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.2
+    - condition: console.enabled
+      name: console
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.4
+    - condition: console-api-v2.enabled
+      name: console-api-v2
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.6
+    - condition: cost-analysis.enabled
+      name: cost-analysis
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.2
+    - condition: file-manager.enabled
+      name: file-manager
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.3
+    - condition: identity.enabled
+      name: identity
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.4
+    - condition: inventory.enabled
+      name: inventory
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.3
+    - condition: plugin.enabled
+      name: plugin
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.3
+    - condition: repository.enabled
+      name: repository
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.2
+    - condition: secret.enabled
+      name: secret
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.2
+    - condition: spacectl.enabled
+      name: spacectl
+      repository: https://cloudforet-io.github.io/charts
+      version: '>=1.0.0'
+    - condition: supervisor.enabled
+      name: supervisor
+      repository: https://mzc-cloudops-v2.github.io/charts
+      version: 2.0.3
+    description: A Helm chart for CloudOps
+    digest: 164dde397a82973c00ddf5e84823e01562fca7f4cc2e7e17ac23b483cbac24de
+    home: https://www.megazone.com
+    name: mzc-cloudops-v2
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/mzc-cloudops-v2-2.0.4/mzc-cloudops-v2-2.0.4.tgz
+    version: 2.0.4
+  - apiVersion: v2
     appVersion: 2.0.3
     created: "2026-02-27T09:30:24.708158212Z"
     dependencies:
@@ -3507,4 +3571,4 @@ entries:
     urls:
     - https://github.com/mzc-cloudops-v1/charts/releases/download/supervisor-1.1.16/supervisor-1.1.16.tgz
     version: 1.1.16
-generated: "2026-03-09T07:35:38.390389859Z"
+generated: "2026-03-09T07:49:17.734731601Z"
