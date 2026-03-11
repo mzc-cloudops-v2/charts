@@ -401,6 +401,16 @@ entries:
     version: 0.0.1
   cloudops-console:
   - apiVersion: v2
+    appVersion: 0.0.0-dev.1d27c3b
+    created: "2026-03-11T07:52:46.554036161Z"
+    description: CloudOps console Helm chart for Kubernetes
+    digest: 974661798eb5d46a6816e9ba2a7f3bb7156f76d40404092d9d32c134f4d16cad
+    name: cloudops-console
+    type: application
+    urls:
+    - https://github.com/mzc-cloudops-v2/charts/releases/download/cloudops-console-1.0.1/cloudops-console-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: 0.0.0-dev.dc6422f
     created: "2026-03-09T09:01:16.013526753Z"
     description: CloudOps console Helm chart for Kubernetes
@@ -3785,4 +3795,4 @@ entries:
     urls:
     - https://github.com/mzc-cloudops-v1/charts/releases/download/supervisor-1.1.16/supervisor-1.1.16.tgz
     version: 1.1.16
-generated: "2026-03-10T01:33:34.889120649Z"
+generated: "2026-03-11T07:52:46.554406108Z"
